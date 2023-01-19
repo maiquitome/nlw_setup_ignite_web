@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './styles/global.css'
 import { Habit } from './components/Habits'
 
-function App() {
+export function App() {
   return (
     <div>
       <Habit completed={3} />
@@ -14,4 +14,3 @@ function App() {
   )
 }
 
-export default App
